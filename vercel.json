@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/main.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.11",
+        "maxLambdaSize": "100mb" // Attempt to increase size, may be ignored on Hobby tier
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/src/static/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "src/main.py",
+      "config": {
+        "memory": 1024, // Set memory to 1024MB (Hobby tier max)
+        "maxDuration": 10 // Set duration to 10s (Hobby tier max, likely too short for Playwright)
+      }
+    }
+  ]
+}
+
