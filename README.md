@@ -1,3 +1,35 @@
+# Hi, I'm Muh Amin Arsyad — a code artisan from Indonesia!  
+
+[![GitHub followers](https://img.shields.io/github/followers/Rektzhome?label=Follow&style=social)](https://github.com/Rektzhome)  
+[![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)  
+[![Personal Website](https://img.shields.io/badge/-Website-black?style=flat-square&logo=github)](https://github.com/Rektzhome)
+
+---
+
+### About Me
+- 🧠 Focused on backend development & data scraping  
+- ⚒️ Building: [`HpGaul`](https://github.com/Rektzhome/HpGaul) — a Node.js-powered smartphone scraper  
+- 🧩 Loves efficient code, hates dummy data  
+- 🕹️ Current Stack: Node.js, Express, Puppeteer, MongoDB  
+- ☕ Fuel: Kopi dan deadline mendadak  
+
+---
+
+### Featured Project
+#### [`HpGaul`](https://github.com/Rektzhome/HpGaul)
+Scrapes smartphone data like a ninja—accurate, silent, and no dummy data allowed.
+
+![Status](https://img.shields.io/badge/status-maintained-brightgreen)
+![Tech](https://img.shields.io/badge/node.js-checked-blue)
+![Data](https://img.shields.io/badge/dummy%20data-nope-red)
+
+---
+
+### GitHub Stats
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rektzhome&layout=
+
+
 # GSMArena Phone Scraper Web App (Redesigned)
 
 This is a simple Flask web application that allows users to search for phone specifications on GSMArena.com. This version features a redesigned user interface using Tailwind CSS (via Play CDN) and vanilla JavaScript, incorporating features like dark mode, cards for results, and a modal for detailed views.
